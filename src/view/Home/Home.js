@@ -2,7 +2,7 @@ import React from 'react'
 import "./Home.css"
 
 import Mcard from '../../components/Mcard/Mcard'
-import { PRODUCT,WEBSITENAME } from '../../components/Config/data'
+import { PRODUCT,WEBSITENAME } from '../../components/config/data.js'
 
 function Home() {
   return (

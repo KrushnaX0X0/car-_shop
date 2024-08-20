@@ -1,0 +1,9 @@
+.title-web{
+    text-align: center;
+    font-style: italic;
+}
+.continer-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

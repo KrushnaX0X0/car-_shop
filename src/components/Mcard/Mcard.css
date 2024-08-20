@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.continer{
+    height: 300px;
+    width: 250px;
+    margin: 20px;
+    margin-top: 10vh;
+    
+    border-radius: 4px;
+background: white;
+box-shadow:  20px 20px 57px #bebebe,
+             -20px -20px 57px #ffffff;
+
+    
+}
+.img-product{
+    height: 180px;
+    width: 100%;
+    object-fit:contain;
+    display: block;
+    margin: 0 auto;
+    
+}
+.info{
+    text-align: center;
+}
+.btn{
+    padding: 1.5vh 4vw;
+    display: block;
+    margin: 2vh auto;
+    border: none;
+    background-color: #4fcdff;
+    color: white;
+    cursor: pointer;
+    &:hover{
+    background-color: #308eb3;
+    }
+}
+
+.prise{
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+}
